@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>YouTube Clone</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="flex-div">
+            <div class="nav-left flex-div">
+                <i class="fa-solid fa-bars"></i>
+            <img src="./image/youlogo.jpg" alt="logo">
+            </div>
+            <div class="nav-middle flex-div">
+                <div class="search-box flex-div">
+                    <input type="text" placeholder="Search">
+                    <span class="material-symbols-outlined search">search</span>
+                </div>
+                <span class="material-symbols-outlined mic">
+                    mic
+                    </span>
+            </div>
+            <div class="nav-right">
+                <span class="material-symbols-outlined">
+                    create
+                    </span>
+                <span class="material-symbols-outlined">
+                    notifications
+                    </span>
+                <img src="./image/krishan.jpg" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <section>
+        <!-- ------sidebar------- -->
+        <div class="sidebar">
+            <div class="shortcut-links">
+                <a href=""><span class="material-symbols-outlined">
+                    home
+                    </span><p>Home</p></a>
+                <a href=""><span class="material-symbols-outlined">
+                    explore
+                    </span><p>Explore</p></a>
+                <a href=""><span class="material-symbols-outlined">
+                    subscriptions
+                    </span><p>Subscription</p></a>
+                <hr>
+                <a href=""><span class="material-symbols-outlined">
+                    video_library
+                    </span><p>Library</p></a>
+                <a href=""><span class="material-symbols-outlined">
+                    history
+                    </span><p>History</p></a>
+                <hr>
+            </div>
+            <div class="subscribed-list">
+                <h3>Subscriptions</h3>
+                <a href=""><img src="./image/blockchainw.png"><p>Blockchain world</p></a>
+                <a href=""><img src="./image/mtv.png"><p>MTV Music</p></a>
+                <a href=""><img src="./image/codeeater.png"><p>Code Eater</p></a>
+                <a href=""><img src="./image/lemotech.jpg"><p>Lemotech</p></a>
+                <a href=""><img src="./image/code with harry.jpg"><p>Code with Harry</p></a>
+                <a href=""><img src="./image/meditation.jpg"><p>Medidation with..</p></a>
+                <a href=""><img src="./image/technical guruji.png"><p>Technical Guruji</p></a>
+            </div>
+        </div>
+        <!-- video section -->
+        <div class="right-section">
+            <!-- item 1 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/solidity.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/codeeater.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Introduction to Solidity</h3>
+                        <p>Code Eater</p>
+                        <p>3.0K views ⋅ 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 2 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/blockchain development.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/blockchainw.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Blockchain development resource</h3>
+                        <p>Blockchain World</p>
+                        <p>8.0K views ⋅ 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 3 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/full stack blockchain.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/blockchainw.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Full Stack Blockchain Developer</h3>
+                        <p>Blockchain World</p>
+                        <p>10K views ⋅ 45 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 4 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/metavesre.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/blockchainw.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Metaverse in blockchain</h3>
+                        <p>Blockchain World</p>
+                        <p>5.9K views ⋅ 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 5 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/lemo2.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/lemotech.jpg" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Super Gamers</h3>
+                        <p>Lemotech</p>
+                        <p>78K views ⋅ 7 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 6 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/lemo1.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/lemotech.jpg" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Alucard gaming skill</h3>
+                        <p>Lemotech</p>
+                        <p>8K views ⋅ 26 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 7 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/full stack solidity.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/codeeater.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Full stack blockchain Dapp</h3>
+                        <p>Code Eater</p>
+                        <p>9.0K views ⋅ 23 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 8 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/ganache vs hdd.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/blockchainw.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Blockchain important app</h3>
+                        <p>Blockchain World</p>
+                        <p>7.9K views ⋅ 15 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 9 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/mtv1.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/mtv.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Bollywood wala Dance</h3>
+                        <p>MTV Music</p>
+                        <p>3.0K views ⋅ 20 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 10 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/project in solidity.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/codeeater.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Project on solidity</h3>
+                        <p>Code Eater</p>
+                        <p>5.9K views ⋅ 8 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 11 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/master solidity.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/codeeater.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Master in solidity</h3>
+                        <p>Code Eater</p>
+                        <p>9.0K views ⋅ 26 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 12 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/mtv5.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/mtv.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Bollywood 80's Melodies</h3>
+                        <p>MTV Music</p>
+                        <p>5.8K views ⋅ 9 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 13 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/mtv4.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/mtv.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Bollywood Music</h3>
+                        <p>MTV Music</p>
+                        <p>8.9K views ⋅ 30 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 14 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/lemo2.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/lemotech.jpg" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Best gaming Exprience</h3>
+                        <p>Lemotech</p>
+                        <p>2.9K views ⋅ 27 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 15 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/metavesre.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/blockchainw.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Metaverse Course Part 2</h3>
+                        <p>Blockchain World</p>
+                        <p>5.9K views ⋅ 17 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- item 16 -->
+            <div class="item">
+                <img class="thumbnail" src="./image/mtv3.jpg" alt="">
+                <div class="title">
+                    <div class="v-logo">
+                        <img src="./image/mtv.png" alt="">
+                    </div>
+                    <div class="v-title">
+                        <h3>Deewarein | Salim khan, Sara Ali Khan</h3>
+                        <p>MTV Music</p>
+                        <p>23K views ⋅ 25 days ago</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+</body>
+</html>
